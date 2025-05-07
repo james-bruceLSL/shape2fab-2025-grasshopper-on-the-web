@@ -4,8 +4,8 @@
       <div style="display: flex; align-items: center">
         <img
           class="logo-image"
-          alt="Shape2FabLogo"
-          src="../assets/graphics/stf-logo.png"
+          alt="LSL_Logo"
+          src="../assets/graphics/LSL_logo.svg"
         />
         <h2>Grasshopper on the Web</h2>
         <div id="navigation-tabs">
@@ -43,7 +43,7 @@
             }"
             @click="toggleExample(3)"
           >
-            Your example will be here!
+            RC Scheme example
           </div>
         </div>
       </div>

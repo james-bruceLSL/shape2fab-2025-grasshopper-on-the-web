@@ -15,6 +15,7 @@ import { loadRhino } from "@/scripts/compute.js";
 
 import texturePath from "../assets/graphics/brick_texture.jpg"
 
+
 const loader = new Rhino3dmLoader();
 loader.setLibraryPath("https://cdn.jsdelivr.net/npm/rhino3dm@8.0.0-beta2/");
 
@@ -102,7 +103,7 @@ function init() {
 
   // add light helper
   const lightHelper = new THREE.DirectionalLightHelper(dirLight, 5, 0x00ff00);
-  scene.add(lightHelper);
+  // scene.add(lightHelper);
 
   // add shadow plane
   const plane = new THREE.Mesh(

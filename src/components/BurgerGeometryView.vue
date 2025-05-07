@@ -54,11 +54,11 @@ function init() {
 
 
   //create threejs geometry
-  // const geometry = new THREE.BoxGeometry(10, 10, 10)
-  // const material = new THREE.MeshStandardMaterial({ color: 0x00ff00 })
-  // const cube = new THREE.Mesh(geometry, material)
-  // cube.position.set(0, 0, 0)
-  // scene.add(cube)
+  const geometry = new THREE.BoxGeometry(20, 10, 10)
+  const material = new THREE.MeshStandardMaterial({ color: 0x00ff00 })
+  const cube = new THREE.Mesh(geometry, material)
+  cube.position.set(0, 0, 0)
+  scene.add(cube)
 
   THREE.Object3D.DEFAULT_UP.set(0, 0, 1);
 

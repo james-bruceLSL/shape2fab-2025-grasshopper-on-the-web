@@ -1,7 +1,7 @@
 <template>
   <div id="body">
     <!-- HTML -->
-    <h1 id="title">Introduction to Web Development</h1>
+    <h1 id="title">Introduction to Web Developments</h1>
     <br />
     <p>Web development is made up of three major parts:</p>
 
@@ -13,7 +13,7 @@
       <li>
         CSS: Defines the style of html elements (ex. color, fonts, spacings)
       </li>
-      <li>JavaScript: Adds interactivity and dynamic behavior.</li>
+      <li id = "change-this">JavaScript: Adds interactivity and dynamic behavior.</li>
     </ul>
 
     <br />
@@ -75,6 +75,12 @@ const changeTitleColor = () => {
   margin: 20px;
 }
 
+li {
+font-family: 'Brandon Grotesque Light', serif;
+  font-size: 20px;
+  color: #333;
+}
+
 .myButton {
   background-color: black;
   color: white;
@@ -87,5 +93,12 @@ const changeTitleColor = () => {
 }
 .myButton:hover {
   cursor: pointer;
+}
+
+#change-this {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
 }
 </style>

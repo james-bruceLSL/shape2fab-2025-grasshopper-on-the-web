@@ -2,7 +2,7 @@
 
 import { ref } from "vue";
 
-import GeometryView from "../components/BurgerGeometryView.vue"
+import GeometryView from "../components/BurgerGeometryViewFull.vue"
 import Toggle from "../components/Toggle.vue"
 import Slider from "../components/Slider.vue"
 
@@ -73,13 +73,11 @@ with data, objects, functions etc. -->
       <Slider
       :title=LevelsSliderName
       min="0"
-      max="5"
+      max="10"
       step="1"
       val="1"
       @update="updateValue"
-    ></Slider>
-    
-
+    ></Slider> 
 
     <br>
     <h2> Toppings</h2>
@@ -131,10 +129,9 @@ with data, objects, functions etc. -->
     @update= "updateValue"
     ></Toggle>
 
-
   </div>
   
-    </div>
+</div>
 
 
 </template>
